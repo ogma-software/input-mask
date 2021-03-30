@@ -1,0 +1,48 @@
+{
+  "name": "ogma-input-mask",
+  "version": "0.0.1",
+  "description": "small util to mask text value to a pattern",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && uglifyjs --mangle -- ./dist/index.js > ./dist/index.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogma-software/input-mask.git"
+  },
+  "keywords": [
+    "masking",
+    "input"
+  ],
+  "bundleDependencies": false,
+  "deprecated": false,
+  "files": [
+    "dist/"
+  ],
+  "author": {
+    "name": "cotlod",
+    "url": "https://github.com/cotlod"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ogma-software/input-mask/issues"
+  },
+  "homepage": "https://github.com/ogma-software/input-mask#readme",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "typescript": "^4.2.3",
+    "uglify-js": "^3.13.3"
+  },
+  "engines": {
+    "node": "14"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "useTabs": false,
+    "tabWidth": 2,
+    "semi": false,
+    "printWidth": 130,
+    "singleQuote": true,
+    "quoteProps": "preserve"
+  }
+}

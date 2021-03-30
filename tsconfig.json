@@ -1,0 +1,21 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*", "public/*"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2017",
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "baseUrl": "src",
+    "outDir": "dist",
+    "importsNotUsedAsValues": "error",
+    "isolatedModules": false,
+    "sourceMap": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {}
+  }
+}
