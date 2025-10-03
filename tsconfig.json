@@ -9,7 +9,6 @@
     "resolveJsonModule": true,
     "baseUrl": "src",
     "outDir": "dist",
-    "importsNotUsedAsValues": "error",
     "isolatedModules": false,
     "sourceMap": true,
     "strict": false,
